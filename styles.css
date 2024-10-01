@@ -1,11 +1,9 @@
 
 body {
 	background-color: rgb(49, 55, 74);
-	/* background-image: url('background.webp'); */
 	background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('background.webp');
 	background-size: cover;
 	background-repeat: no-repeat;
-
 }
 
 .menu-fixed {
@@ -13,11 +11,8 @@ body {
 	top: 0;
 	width: 100%; 
 	z-index: 1000; 
-	/* border: 2px solid red; */
 	background-color: white;
 }
-
-
 
 .head {
 	position: relative;
@@ -29,25 +24,20 @@ body {
 	background-size: cover;
 	margin-bottom: 20px;
 	margin-top: 55px;
-	/* border: 3px solid green; */
 }
 
 .overlap-block {
-	/* border: 2px solid blue; */
 	position: relative;
-	top: -110px;
+	top: -140px;
+	margin-bottom: -140px;
 }
 
 .footer {
 	position: relative;
 	width: 100vw;
 	height: 20vh;
-	/* background-image: linear-gradient(rgba(34, 33, 33, 0.5), rgba(46, 42, 42, 0.5)), url('fotter.jpg'); */
 	background-color: white;
-	background-size: 100vw 100vh; 
-	background-position: center;
 	opacity: 0.5;
-	background-size: cover;
 }
 
 .btn-txt {
@@ -76,15 +66,12 @@ body {
 	font-family: 'Nunito Sans', sans-serif;
 	font-weight: 600;
 	color: rgba(82, 91, 117, 0.8);
-	/* font-size: 26px; */
-	/* font-size: calc(max(14px, 26px)); */
 	font-size: clamp(14px, 2vw, 26px);
 }
 
 
 .text-container {
 	display: flex;
-	/* border: 2px solid red; */
 	justify-content: center;
 }
 
@@ -141,7 +128,7 @@ body {
 }
 
 .show-more {
-	margin-bottom: 50px;
+	margin-bottom: 30px;
 }
 
 .card {
